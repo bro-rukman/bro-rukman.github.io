@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto';
+
+
+}
+
+.navbar {
+    background-color: #334666;
+
+
+}
+
+.nav-item {
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.nav-item:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.body_all {
+    background-color: #FCF5EF;
+}
+
+.profile {
+    width: 233px;
+
+}
+
+.profile h5,
+.stories h5,
+.highlight h5 {
+    font-family: 'Lora';
+    font-weight: 500;
+}
+
+.profile h6 {
+    font-weight: 600;
+}
+
+.profile p {
+    font-weight: 200;
+}
+
+.event p {
+    font-size: 13px;
+}
+
+.stories {
+
+    height: auto;
+
+}
+
+.post {
+    height: 160px;
+    background-color: #fff;
+}
+
+.post textarea {
+    border: none;
+}
+
+.area {
+    margin-bottom: 50px;
+}
+
+.area textarea {
+    background-color: #fff;
+    position: relative;
+
+}
+
+.area a img {
+    position: absolute;
+    margin-top: -28px;
+
+}
+
+
+
+.highlight textarea {
+    border: 1px solid #334666;
+    margin-left: -11px;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.figure-img a img {
+    opacity: 0;
+}
+
+.figure-img:hover a {
+    opacity: 3;
+}
+
+.carousel {
+    background-color: #000000;
+}
+
+.mockup h3 {
+    font-family: lora;
+    color: indigo;
+}
+
+.mockup a i {
+    color: blue;
+}
+
+.footer {
+    background-color: #646363;
+}
